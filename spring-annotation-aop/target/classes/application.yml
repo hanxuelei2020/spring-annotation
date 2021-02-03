@@ -1,0 +1,15 @@
+server:
+  port: 80
+
+spring:
+  datasource:
+    url:  jdbc:mysql://localhost:3306/mp?serverTimezone=UTC
+    driverClassName: com.mysql.cj.jdbc.Driver
+    username: root
+    password: Aa12358@jiy
+    type: com.alibaba.druid.pool.DruidDataSource
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+      
